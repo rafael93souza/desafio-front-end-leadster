@@ -1,6 +1,16 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import { Header } from '@/components/Header'
+import  GlobalStyle from '../styles/global'
+import type { AppProps } from 'next/app';
+import { FilterProvider } from '@/contexts/FilterContext';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <FilterProvider>
+            <Header/>
+            <Component {...pageProps} />
+            <GlobalStyle />
+        </FilterProvider>
+
+        
+      
+     
 }
