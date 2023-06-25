@@ -1,4 +1,4 @@
-"use-client"
+"use client"
 import Image from "next/image";
 import logoImg from "../../assets/logo.png";
 import { HeaderContainer, Logo } from "./styles";

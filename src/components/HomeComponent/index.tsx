@@ -1,4 +1,4 @@
-"use-client"
+"use client"
 import Image from "next/image";
 import { ButtonHome, ContainerTitle, HomeContainer, HomeContent } from "./styles";
 import iconeTilte from '../../assets/asset-header.png';
@@ -16,6 +16,8 @@ export function HomeComponet(){
                     <Image 
                     src={iconeTilte}
                     alt='Icone com três traços'
+                    width={49}
+                    height={32}
                     />
                 </ContainerTitle>
                 <span>
