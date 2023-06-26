@@ -3,8 +3,7 @@
 Bem-vindo! Este repositório contém minha solução para o Desafio Front-end da empresa [Leadster](https://leadster.com.br/) 
 </br>
 
-
-![Imagem do site em produção](image.png)
+![Imagem do site em produção](https://github.com/rafael93souza/desafio-front-end-leadster/assets/104039671/3224d745-c0e0-434d-a228-b76be45dbe79)
 
 O desafio consistia na criação de uma landing page utilizando Next.js, Styled Components e recomendava-se o uso de TypeScript.
 
