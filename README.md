@@ -9,7 +9,7 @@ O desafio consistia na criação de uma landing page utilizando Next.js, Styled 
 [Acesse a landig page aqui!](https://desafio-front-end-leadster.vercel.app/) 
 
 
-###Experiência
+### Experiência
 Realizar este desafio técnico foi uma experiência enriquecedora, proveitosa, desafiadora e satisfatória para mim. Tomei algumas decisões para alcançar os objetivos propostos e criar uma solução eficiente e de alta qualidade.
 
 
