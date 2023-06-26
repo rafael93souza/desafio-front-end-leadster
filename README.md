@@ -1,38 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Desafio Técnico - Landing Page
 
-## Getting Started
+Bem-vindo! Este repositório contém minha solução para o Desafio Front-end da empresa [Leadster](https://leadster.com.br/) 
+</br>
 
-First, run the development server:
 
+![Imagem do site em produção](image.png)
+
+O desafio consistia na criação de uma landing page utilizando Next.js, Styled Components e recomendava-se o uso de TypeScript.
+
+[Acesse a landig page aqui!](https://desafio-front-end-leadster.vercel.app/) 
+</br>
+###Experiência
+Realizar este desafio técnico foi uma experiência enriquecedora, proveitosa, desafiadora e satisfatória para mim. Tomei algumas decisões para alcançar os objetivos propostos e criar uma solução eficiente e de alta qualidade.
+
+
+* **Enriquecedora**: 
+    >  Pois pude aprender mais sobre as bibliotecas que utilizei, além de tomar decisões que aprimoram ainda mais meus conhecimentos em front-end.  Além disso, o fato de adicionar mais um projeto ao meu portfólio é muito gratificante.
+
+* **Proveitosa**: 
+    > Pois pude unir o conhecimento que tinha em Next.js ao Styled Components. Ainda não tinha trabalhado com ambos juntos no mesmo projeto, e essa oportunidade me permitiu explorar suas integrações e funcionalidades.
+
+*  **Desafiadora**: 
+    > Pelo ffato de o projeto não ter um layout detalhado (figma) fornecido, apenas uma imagem em formato PNG. No entanto, utilizei meus conhecimentos de designer para conseguir reproduzir um layout mais fiel possivel. 
+    
+
+* **Satisfatoria**:
+    > Nada é mais gratificante do que concluir um desafio e poder visualizá-lo no site, percebendo que foi desenvolvido com sucesso e mantém-se fiel ao layout apresentado e responsivo.   
+
+
+</br>
+### Decisões Tomadas
+
+* **Next.js**:
+    >Utilizei o Route Handlers do Next.js para simular o consumo de dados de uma API de back-end, para popular a página. 
+
+* **TypeScript**:
+    > Optei por utilizar TypeScript para adicionar tipagem estática ao projeto, o que proporciona uma melhor experiência de desenvolvimento, ajuda a evitar erros comuns e torna o código mais robusto e legível.
+
+* **React Query**:
+    > Optei em utilizar o react query na páginação dos dados pois torna muito fácil a busca, o armazenamento em cache, a sincronização dos dados e atualização. Causando uma melhor experiência para usuário que terá acesso aos dados mais rapidamente.
+
+* **antd**:
+    > Utilizei para páginação e modal a biblioteca, por ja ter components prontos o que agiliza a parte do desenvolvimento. Além da acessibilidade que ja vem em seus componentes.
+
+* **Context API**:
+    > Pensando em escalabilidade do projeto optei por iniciar a aplicação fazendo uso de context API para trafegar os dados entre componentes na aplicação.
+
+### Organização do Código
+
+Para organizar o código, segui uma estrutura de diretórios padrão do Next.js. Além disso, mantive um estilo de código consistente, seguindo as boas práticas de nomenclatura e formatação recomendadas pela comunidade.
+
+
+### Funcionalidades
+
+Aqui estão as principais funcionalidades implementadas na landing page e as instruções para executar o projeto localmente:
+
+* Apresentação de uma página de destino (landing page) atrativa e responsiva.
+* Listagem e pginação dos videos. 
+* Redirecionamento do usuário para página da empresa ao clicar nos links da aplicação.
+</br>
+
+### Instruções
+
+Instruções para baixar e executar a aplicação. 
+
+1. Clone este repositório
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ git clone https://github.com/rafael93souza/desafio-front-end-leadster.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Vá para a pasta do projeto
+```bash
+cd desafio-front-endleadster
+```
+3. Instale todas as dependências 
+```bash
+npm install
+```
+4. Execute o projeto
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
