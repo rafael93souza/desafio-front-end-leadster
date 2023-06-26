@@ -1,14 +1,14 @@
 ## Desafio Técnico - Landing Page
 
 Bem-vindo! Este repositório contém minha solução para o Desafio Front-end da empresa [Leadster](https://leadster.com.br/) 
-</br>
 
 ![Imagem do site em produção](https://github.com/rafael93souza/desafio-front-end-leadster/assets/104039671/3224d745-c0e0-434d-a228-b76be45dbe79)
 
 O desafio consistia na criação de uma landing page utilizando Next.js, Styled Components e recomendava-se o uso de TypeScript.
 
 [Acesse a landig page aqui!](https://desafio-front-end-leadster.vercel.app/) 
-</br>
+
+
 ###Experiência
 Realizar este desafio técnico foi uma experiência enriquecedora, proveitosa, desafiadora e satisfatória para mim. Tomei algumas decisões para alcançar os objetivos propostos e criar uma solução eficiente e de alta qualidade.
 
@@ -27,7 +27,6 @@ Realizar este desafio técnico foi uma experiência enriquecedora, proveitosa, d
     > Nada é mais gratificante do que concluir um desafio e poder visualizá-lo no site, percebendo que foi desenvolvido com sucesso e mantém-se fiel ao layout apresentado e responsivo.   
 
 
-</br>
 ### Decisões Tomadas
 
 * **Next.js**:
@@ -57,7 +56,7 @@ Aqui estão as principais funcionalidades implementadas na landing page e as ins
 * Apresentação de uma página de destino (landing page) atrativa e responsiva.
 * Listagem e pginação dos videos. 
 * Redirecionamento do usuário para página da empresa ao clicar nos links da aplicação.
-</br>
+
 
 ### Instruções
 
