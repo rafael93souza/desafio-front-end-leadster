@@ -10,9 +10,9 @@ import { Video } from "@/@types/video-type";
 
 export function CardsContainerComponent(){
     const [page, setPage] = useState(1);
-    const { data, isLoading, isError, isSuccess, isFetching, } = useVideos(page);
+    const { data } = useVideos(page);
     const {setIsModalOpen,setVideo} = useVideosContext()
-
+   
     function handleChangePage(page: number){
         setPage(page);
     }
@@ -35,8 +35,7 @@ export function CardsContainerComponent(){
             })}
             </CardsContent>
             <PaginatationComponent
-
-            totalCount={45}
+            totalCount={data?.totalCount || 0 }
             onChange={handleChangePage}
             page={page}
             />
