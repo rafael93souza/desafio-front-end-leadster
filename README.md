@@ -44,6 +44,9 @@ Realizar este desafio técnico foi uma experiência enriquecedora, proveitosa, d
 * **Context API**:
     > Pensando em escalabilidade do projeto optei por iniciar a aplicação fazendo uso de context API para trafegar os dados entre componentes na aplicação.
 
+* **Tests e CI/CD**:
+    > Para testes unitários foi utilizado Jest e testing library e para a CI utiizado o github Actions para rodar os tests em cada push para o repositório remoto. Os tests foram básicos de renderização correta dos componentes, pois ainda estou estudando e buscando apredner mais sobre tests no desenvolvimento Front-end.  
+
 ### Organização do Código
 
 Para organizar o código, segui uma estrutura de diretórios padrão do Next.js. Além disso, mantive um estilo de código consistente, seguindo as boas práticas de nomenclatura e formatação recomendadas pela comunidade.
